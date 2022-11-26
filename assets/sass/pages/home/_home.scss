@@ -4,13 +4,13 @@
 @import "../../utils/bg-img";
 @import "../../utils/text";
 @import "../../components/img-btn";
-@import"../../components/load-btn";
+@import "../../components/load-btn";
 .main {
   background-color: $bg-color;
   .sectiontwo {
     padding-top: 68px;
-    .dropdown{
-        display: none;
+    .dropdown {
+      display: none;
     }
     .list {
       @include flexBox();
@@ -28,18 +28,15 @@
           opacity: 100%;
         }
       }
-     
-      
     }
     @media only screen and (max-width: 992px) {
-        .list{
-            display: none;
-        }
-        .dropdown{
-            display: block;
-        }
+      .list {
+        display: none;
+      }
+      .dropdown {
+        display: block;
+      }
     }
-  
 
     .cards {
       padding-top: 68px;
@@ -71,30 +68,24 @@
           }
         }
       }
-    
     }
     .load-btn {
       text-align: center;
       padding: 80px 0 112px 0;
       .LoadBtn {
-       @extend%load-btn;
+        @extend%load-btn;
       }
     }
   }
 }
 @media only screen and (max-width: 992px) {
-    .main{
-        display: flex;
-        // text-align: center;
-        justify-content: center;
-        // align-items: center;
-    }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
 
-    
-    .Three{
-        flex-direction: column;
-        row-gap: 48px;
-        
-        
-    }
+  .Three {
+    flex-direction: column;
+    row-gap: 48px;
+  }
 }
