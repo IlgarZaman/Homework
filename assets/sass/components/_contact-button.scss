@@ -1,0 +1,16 @@
+%contact-button {
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  color: $text-dark-gray;
+  transition: all 2s;
+  &:hover {
+    background-color: $text-dark-gray;
+    color: white;
+  }
+}
