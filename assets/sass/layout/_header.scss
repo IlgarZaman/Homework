@@ -1,0 +1,78 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../components/button";
+
+#header {
+    background-color: $secondary-color;
+    padding: 10px 0;
+    .header {
+        @include flexBox(space-between, center);
+
+        nav {
+            ul {
+                @include flexBox(space-between);
+                list-style: none;
+                width: 515px;
+                li {
+                    color: $color-white;
+                }
+            }
+        }
+        .contact-btn {
+            @extend %primary-button;
+        }
+        .menu {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .header {
+            nav {
+                display: none;
+            }
+            .contact-btn {
+                display: none;
+            }
+            .menu {
+                display: block;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+.portfolio{
+    background-color: $secondary-color;
+    .section{
+        padding: 96px 0 66px;
+
+        // @include flexBox();
+        text-align: center;
+        .portfolio{
+            h1{
+                color: $bg-color;
+                font-weight: 800;
+                font-size: 72px;
+                letter-spacing: -2px;
+            }
+        }
+
+        .sentences{
+            padding-top: 24px;
+            p{
+                color: $bg-color;
+                font-weight: 401;
+                font-size: 16px;
+                line-height: 32px;
+                opacity: 64%;
+                color: $light-gray;
+            }
+        }
+    }
+}
