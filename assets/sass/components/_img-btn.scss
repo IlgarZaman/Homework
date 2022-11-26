@@ -1,0 +1,15 @@
+%img-btn {
+  width: 84px;
+  height: 38px;
+  border-radius: 19px;
+  background-color: #ffffff;
+  color: #391400;
+  border: none;
+  cursor: pointer;
+  transition: all 1.5s;
+  transform: 1.01;
+  &:hover {
+    background-color: #391400;
+    color: white;
+  }
+}

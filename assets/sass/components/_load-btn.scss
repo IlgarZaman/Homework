@@ -1,0 +1,14 @@
+%load-btn {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: white;
+  color: $text-dark;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
+  transition: all 1.5s;
+  &:hover {
+    background-color: $text-dark;
+    color: white;
+  }
+}

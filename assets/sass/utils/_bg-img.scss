@@ -1,0 +1,20 @@
+%bg-img {
+  width: 370px;
+  height: 416px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid parent-color;
+  border-radius: 6px;
+  transition: all 1s;
+  opacity: 100%;
+  box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
+
+  &:hover {
+    transform: scale(1.0099);
+    background-color: $bg-color;
+    opacity: 80%;
+    cursor: pointer;
+  }
+}

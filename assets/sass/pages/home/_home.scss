@@ -1,0 +1,100 @@
+@import "../../utils/variables";
+@import "../../utils/mixins";
+@import "../../components/button";
+@import "../../utils/bg-img";
+@import "../../utils/text";
+@import "../../components/img-btn";
+@import"../../components/load-btn";
+.main {
+  background-color: $bg-color;
+  .sectiontwo {
+    padding-top: 68px;
+    .dropdown{
+        display: none;
+    }
+    .list {
+      @include flexBox();
+
+      ul {
+        display: flex;
+        row-gap: 46px;
+        li {
+          padding-left: 46px;
+          cursor: pointer;
+          color: $text-dark-gray;
+          opacity: 64%;
+        }
+        #show-all {
+          opacity: 100%;
+        }
+      }
+     
+      
+    }
+    @media only screen and (max-width: 992px) {
+        .list{
+            display: none;
+        }
+        .dropdown{
+            display: block;
+        }
+    }
+  
+
+    .cards {
+      padding-top: 68px;
+
+      .Three {
+        display: flex;
+        column-gap: 30px;
+        padding-bottom: 32px;
+
+        .img {
+          background-image: url(../images/img-cards/Bitmap.png);
+          @extend%bg-img;
+          .Text {
+            @extend%text;
+            .BtN {
+              .img-btn {
+                @extend%img-btn;
+              }
+            }
+
+            .img-text {
+              margin-top: 24px;
+              h3 {
+                font-weight: 800;
+                font-size: 40px;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    
+    }
+    .load-btn {
+      text-align: center;
+      padding: 80px 0 112px 0;
+      .LoadBtn {
+       @extend%load-btn;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+    .main{
+        display: flex;
+        // text-align: center;
+        justify-content: center;
+        // align-items: center;
+    }
+
+    
+    .Three{
+        flex-direction: column;
+        row-gap: 48px;
+        
+        
+    }
+}

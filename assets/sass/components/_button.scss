@@ -8,5 +8,10 @@
     height: 48px;
     font-weight: 900;
     cursor: pointer;
+    transition: all 1.5s;
+    &:hover{
+        background-color: #fff;
+        color: $secondary-color;
+    }
 }
 
