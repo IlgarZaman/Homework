@@ -23,7 +23,7 @@
         letter-spacing: -1px;
       }
       .ContactMeaning {
-        width: 470px;
+        // width: 470px;
         height: 66px;
       }
       p {
@@ -65,16 +65,19 @@
 .left{
     text-align: center;
 }
-h2{
+#htwo{
     font-size: 40px !important;
     letter-spacing: 0 !important;
 }
-p{
+#paragraph{
     width: 273px;
-    height: 127px;
-}
+    height: 10px;
+    margin: 0;
 
 }
-#foot {
-  height: 10cm;
+.ContactMeaning{
+  
+  width: 100px !important;
+  
+}
 }
