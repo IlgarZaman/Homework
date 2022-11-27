@@ -4,9 +4,9 @@
 @import "../components/contact-button";
 
 .sectionthree {
-    padding-bottom: 92px;
+  padding-bottom: 92px;
   background-color: $bg-color;
-  
+
   .mainSection {
     display: flex;
     background-color: $primary-color;
@@ -16,21 +16,13 @@
     .left {
       margin: 96px 0 0;
       width: 50%;
-      h2 {
-        font-weight: 800;
-        font-size: 56px;
-        color: white;
-        letter-spacing: -1px;
-      }
+
       .ContactMeaning {
         // width: 470px;
         height: 66px;
       }
       p {
         margin-top: 28px;
-        font-weight: 400;
-        font-size: 16px;
-        color: white;
       }
       .load-btn {
         margin: 34px 0 80px;
@@ -42,42 +34,37 @@
 
     .right {
       width: 50%;
-      margin: 41px 0 71px 56px ;
+      margin: 41px 0 71px 56px;
     }
   }
 }
 @media only screen and (max-width: 992px) {
-.mainSection{
+  .mainSection {
     flex-direction: column-reverse;
     // justify-content: center;
     align-items: center;
-}
-.right{
+  }
+  .right {
     margin-left: 0 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img{
-        width: 273px;
-        height: 264px;
+    @include flexBox();
+    img {
+      width: 273px;
+      height: 264px;
     }
-}
-.left{
+  }
+  .left {
     text-align: center;
-}
-#htwo{
+  }
+  #htwo {
     font-size: 40px !important;
     letter-spacing: 0 !important;
-}
-#paragraph{
+  }
+  #paragraph {
     width: 273px;
     height: 10px;
     margin: 0;
-
-}
-.ContactMeaning{
-  
-  width: 100px !important;
-  
-}
+  }
+  .ContactMeaning {
+    width: 100px !important;
+  }
 }

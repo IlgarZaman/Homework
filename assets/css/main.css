@@ -10,7 +10,10 @@ ul {
 }
 
 h1 {
+  color: #fdf0e9;
+  font-weight: 800;
   font-size: 72px;
+  letter-spacing: -2px;
 }
 
 h2 {
@@ -40,6 +43,7 @@ p {
     font-size: 40px;
   }
 }
+
 .container,
 #Main, .section, .sectiontwo {
   max-width: 1300px;
@@ -54,7 +58,7 @@ p {
 }
 
 body {
-  font-family: "Epilogue", sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 .main .sectiontwo .cards .Three .img {
@@ -70,6 +74,7 @@ body {
   opacity: 100%;
   box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
 }
+
 .main .sectiontwo .cards .Three .img:hover {
   transform: scale(1.0099);
   background-color: #fdf0e9;
@@ -88,6 +93,7 @@ body {
   transition: all 1.5s;
   transform: 1.01;
 }
+
 .main .sectiontwo .cards .Three .img .Text .BtN .img-btn:hover {
   background-color: #391400;
   color: white;
@@ -103,6 +109,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
   transition: all 1.5s;
 }
+
 .main .sectiontwo .load-btn .LoadBtn:hover {
   background-color: #391400;
   color: white;
@@ -120,6 +127,7 @@ body {
   color: #391400;
   transition: all 2s;
 }
+
 .sectionthree .mainSection .left .load-btn .LoadBtn:hover {
   background-color: #391400;
   color: white;
@@ -147,6 +155,7 @@ body {
   cursor: pointer;
   transition: all 1.5s;
 }
+
 #header .header .contact-btn:hover {
   background-color: #fff;
   color: #312b49;
@@ -164,6 +173,7 @@ body {
   cursor: pointer;
   transition: all 1.5s;
 }
+
 #header .header .contact-btn:hover {
   background-color: #fff;
   color: #312b49;
@@ -173,11 +183,13 @@ body {
   background-color: #312b49;
   padding: 10px 0;
 }
+
 #header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 #header .header nav ul {
   display: flex;
   justify-content: space-between;
@@ -185,13 +197,16 @@ body {
   list-style: none;
   width: 515px;
 }
+
 #header .header nav ul li {
   color: #fff;
   cursor: pointer;
 }
+
 #header .header .menu {
   display: none;
 }
+
 @media only screen and (max-width: 992px) {
   #header .header nav {
     display: none;
@@ -207,23 +222,17 @@ body {
 .portfolio {
   background-color: #312b49;
 }
+
 .portfolio .section {
   padding: 96px 0 66px;
   text-align: center;
 }
-.portfolio .section .portfolio h1 {
-  color: #fdf0e9;
-  font-weight: 800;
-  font-size: 72px;
-  letter-spacing: -2px;
-}
+
 .portfolio .section .sentences {
   padding-top: 24px;
 }
+
 .portfolio .section .sentences p {
-  color: #fdf0e9;
-  font-weight: 401;
-  font-size: 16px;
   line-height: 32px;
   opacity: 64%;
   color: rgba(255, 255, 255, 0.64);
@@ -241,6 +250,7 @@ body {
   cursor: pointer;
   transition: all 1.5s;
 }
+
 #header .header .contact-btn:hover {
   background-color: #fff;
   color: #312b49;
@@ -259,6 +269,7 @@ body {
   opacity: 100%;
   box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
 }
+
 .main .sectiontwo .cards .Three .img:hover {
   transform: scale(1.0099);
   background-color: #fdf0e9;
@@ -287,6 +298,7 @@ body {
   transition: all 1.5s;
   transform: 1.01;
 }
+
 .main .sectiontwo .cards .Three .img .Text .BtN .img-btn:hover {
   background-color: #391400;
   color: white;
@@ -302,6 +314,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.378) 1px 1px 15px;
   transition: all 1.5s;
 }
+
 .main .sectiontwo .load-btn .LoadBtn:hover {
   background-color: #391400;
   color: white;
@@ -310,30 +323,37 @@ body {
 .main {
   background-color: #fdf0e9;
 }
+
 .main .sectiontwo {
   padding-top: 68px;
 }
+
 .main .sectiontwo .dropdown {
   display: none;
 }
+
 .main .sectiontwo .list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .main .sectiontwo .list ul {
   display: flex;
   row-gap: 46px;
 }
+
 .main .sectiontwo .list ul li {
   padding-left: 46px;
   cursor: pointer;
   color: #391400;
   opacity: 64%;
 }
+
 .main .sectiontwo .list ul #show-all {
   opacity: 100%;
 }
+
 @media only screen and (max-width: 992px) {
   .main .sectiontwo .list {
     display: none;
@@ -342,29 +362,36 @@ body {
     display: block;
   }
 }
+
 .main .sectiontwo .cards {
   padding-top: 68px;
 }
+
 .main .sectiontwo .cards .Three {
   display: flex;
   column-gap: 30px;
   padding-bottom: 32px;
 }
+
 .main .sectiontwo .cards .Three .img {
   background-image: url(../images/img-cards/Bitmap.png);
 }
+
 .main .sectiontwo .cards .Three .img .Text .img-text {
   margin-top: 24px;
 }
+
 .main .sectiontwo .cards .Three .img .Text .img-text h3 {
   font-weight: 800;
   font-size: 40px;
   color: white;
 }
+
 .main .sectiontwo .load-btn {
   text-align: center;
   padding: 80px 0 112px 0;
 }
+
 @media only screen and (max-width: 992px) {
   .main {
     display: flex;
@@ -378,6 +405,7 @@ body {
     row-gap: 48px;
   }
 }
+
 #header .header .contact-btn {
   border: 1px solid rgba(255, 255, 255, 0.295743);
   color: #fff;
@@ -390,6 +418,7 @@ body {
   cursor: pointer;
   transition: all 1.5s;
 }
+
 #header .header .contact-btn:hover {
   background-color: #fff;
   color: #312b49;
@@ -407,6 +436,7 @@ body {
   color: #391400;
   transition: all 2s;
 }
+
 .sectionthree .mainSection .left .load-btn .LoadBtn:hover {
   background-color: #391400;
   color: white;
@@ -416,34 +446,31 @@ body {
   padding-bottom: 92px;
   background-color: #fdf0e9;
 }
+
 .sectionthree .mainSection {
   display: flex;
   background-color: #ef6d58;
   width: 100%;
   border-radius: 6px;
 }
+
 .sectionthree .mainSection .left {
   margin: 96px 0 0;
   width: 50%;
 }
-.sectionthree .mainSection .left h2 {
-  font-weight: 800;
-  font-size: 56px;
-  color: white;
-  letter-spacing: -1px;
-}
+
 .sectionthree .mainSection .left .ContactMeaning {
   height: 66px;
 }
+
 .sectionthree .mainSection .left p {
   margin-top: 28px;
-  font-weight: 400;
-  font-size: 16px;
-  color: white;
 }
+
 .sectionthree .mainSection .left .load-btn {
   margin: 34px 0 80px;
 }
+
 .sectionthree .mainSection .right {
   width: 50%;
   margin: 41px 0 71px 56px;
@@ -457,8 +484,8 @@ body {
   .right {
     margin-left: 0 !important;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .right img {
     width: 273px;
@@ -479,4 +506,5 @@ body {
   .ContactMeaning {
     width: 100px !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
