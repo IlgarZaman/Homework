@@ -15,6 +15,17 @@ h3 {
   font-size: 40px;
   color: white;
 }
+h4 {
+  font-size: 24px;
+  color: $text-dark;
+}
+h5 {
+  font-size: 16px;
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
 p {
   font-weight: 400;
   font-size: 16px;
