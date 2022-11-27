@@ -1,0 +1,52 @@
+footer {
+  background-color: $bg-color;
+
+  .container {
+    .top {
+      @include flexBox(space-between, start);
+      border-bottom: 1px solid $line-color;
+      line-height: 32px;
+      li {
+        color: $text-dark;
+      }
+      i {
+        background-color: $primary-color;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 17px;
+        color: $color-white;
+        gap: 8px;
+      }
+    }
+    .bottom {
+      padding: 50px 0;
+      @include flexBox(space-between);
+      p {
+        color: $text-dark;
+        font-size: 16px;
+      }
+      .left {
+        .copy {
+          opacity: 64%;
+        }
+      }
+      .right {
+        @include flexBox();
+        gap: 68px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  footer {
+    .container {
+      .top {
+        flex-direction: column;
+        text-align: center;
+        gap: 51px;
+      }
+    }
+  }
+}

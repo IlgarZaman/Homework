@@ -1,18 +1,27 @@
 h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
 h2 {
-    font-size: 56px;
+  font-size: 56px;
 }
 h3 {
-    font-size: 40px;
+  font-size: 40px;
+}
+h4 {
+  font-size: 24px;
+  color: $text-dark;
+}
+h5 {
+  font-size: 16px;
+  color: $primary-color;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 992px) {
-    h1 {
-        font-size: 56px;
-    }
-    h2 {
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 40px;
+  }
 }
