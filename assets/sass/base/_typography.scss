@@ -2,21 +2,21 @@ h1 {
   font-size: 72px;
 }
 h2 {
+  font-weight: 800;
   font-size: 56px;
+  color: white;
+  letter-spacing: -1px;
 }
 h3 {
+  font-weight: 800;
   font-size: 40px;
+  color: white;
 }
-h4 {
-  font-size: 24px;
-  color: $text-dark;
-}
-h5 {
+p {
+  font-weight: 400;
   font-size: 16px;
-  color: $primary-color;
-  text-transform: uppercase;
+  color: white;
 }
-
 @media only screen and (max-width: 992px) {
   h1 {
     font-size: 56px;
