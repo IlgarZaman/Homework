@@ -18,7 +18,6 @@
       width: 50%;
 
       .ContactMeaning {
-        // width: 470px;
         height: 66px;
       }
       p {
@@ -52,19 +51,16 @@
       height: 264px;
     }
   }
-  .left {
-    text-align: center;
-  }
+ 
   #htwo {
     font-size: 40px !important;
     letter-spacing: 0 !important;
   }
+  
   #paragraph {
+    line-height: 32px;
     width: 273px;
-    height: 10px;
+    height: 127px;
     margin: 0;
-  }
-  .ContactMeaning {
-    width: 100px !important;
   }
 }
